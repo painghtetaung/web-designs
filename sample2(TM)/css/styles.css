@@ -38,7 +38,7 @@ p {
     margin: 10px 0;
 }
 
-image {
+img {
     width: 100%;
 }
 
@@ -258,6 +258,9 @@ image {
         height: 110px;
     }
 
+    .showcase-form {
+        width: 300px;
+    }
     .navbar .flex {
         flex-direction: column;
     }
@@ -265,5 +268,11 @@ image {
     .navbar ul {
         padding: 10px;
         background-color: rgba(0,0,0,0.1);
+    }
+}
+
+@media(max-width: 300px) {
+    .showcase-form {
+        width: 200px;
     }
 }
