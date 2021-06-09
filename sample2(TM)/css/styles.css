@@ -247,9 +247,7 @@ img {
         grid-row: 1;
     }
 
-    .footer {
-        margin-left: 10px;
-    }
+   
 }
 
 /* Mobile */
@@ -276,3 +274,4 @@ img {
         width: 200px;
     }
 }
+
